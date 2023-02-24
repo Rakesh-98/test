@@ -1,0 +1,120 @@
+*{
+margin: 0;   
+padding: 0;
+}
+
+header{
+   position:sticky;
+   top: 0;
+   font-family: 'Open Sans', sans-serif;
+   background-color: rgba(255, 255, 255, 0.644);
+
+}
+nav{
+    margin: 10px 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    padding: 5px 10px;
+}
+
+
+.navbtn{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.navbtn .login , .register{
+    border-right: 1px solid;
+    padding: 3px 10px;
+    cursor: pointer;
+    
+}
+
+.navbtn .login{
+    color: rgb(0, 38, 255);
+}
+.menu{
+    /* margin: 10px; */
+    
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+    
+}
+
+.menu ul li{
+    padding:10px 70px;
+    border-right: 1px solid;
+    cursor: pointer;
+    
+}
+
+.menu ul li:hover{
+    color: rgb(255, 255, 255);
+}
+
+.bgimage img{
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.bgimage .bgHeading{
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    width: 40%;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.bgHeading h1{
+    font-size: 50px;
+
+}
+
+.bgimage h5{
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.bgHeading button{
+    padding: 10px 10px;
+    width: 30%;
+    border: none;
+    cursor:pointer;
+    background-color: rgb(31, 72, 255);
+    color: white;
+}
+.bgHeading button:hover{
+   background-color: black;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery .slide{
+    margin: 5px;
+}
+
+.slide img{
+    margin: 5px;
+
+}
